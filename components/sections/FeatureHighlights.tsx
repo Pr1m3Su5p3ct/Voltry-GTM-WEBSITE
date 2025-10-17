@@ -78,7 +78,7 @@ const FeatureBlock = ({ feature, index }: { feature: Feature; index: number }) =
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   const illustrations = [
-    '/Illustrations/voltry-illustration-27-waveform-analysis-diagram.png',
+    'https://res.cloudinary.com/di54rmpjf/image/upload/v1759980904/Voltry_Media/Stock_Photos/voltry-photo-31-insulator-detail.png',
     'https://res.cloudinary.com/di54rmpjf/image/upload/v1759978087/Voltry_Media/Extras/voltry-extra-07-electric-grid-neon.png',
     'https://res.cloudinary.com/di54rmpjf/image/upload/v1759978077/Voltry_Media/Extras/voltry-extra-04-blackout-scenario-2.png',
   ]
