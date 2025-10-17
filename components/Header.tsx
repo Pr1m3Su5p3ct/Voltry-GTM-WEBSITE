@@ -24,12 +24,12 @@ const Header = () => {
       { name: 'Industrial Facilities', href: '/solutions/industrial' },
     ],
     resources: [
-      { name: 'Documentation', href: '/docs' },
-      { name: 'Case Studies', href: '/resources/case-studies' },
-      { name: 'Technical Whitepapers', href: '/resources/whitepapers' },
-      { name: 'API Reference', href: '/api' },
+      { name: 'Documentation', href: '/docs', comingSoon: true },
+      { name: 'Case Studies', href: '/resources/case-studies', comingSoon: true },
+      { name: 'Technical Whitepapers', href: '/resources/whitepapers', comingSoon: true },
+      { name: 'API Reference', href: '/api', comingSoon: true },
       { name: 'GitHub (Open Source)', href: 'https://github.com/voltry', external: true },
-      { name: 'Blog', href: '/blog' },
+      { name: 'Blog', href: '/blog', comingSoon: true },
     ],
   }
 
@@ -140,10 +140,20 @@ const Header = () => {
                       <Link
                         key={item.name}
                         href={item.href}
-                        className="block px-4 py-3 text-sm text-gray-300 hover:bg-voltry-blue/10 hover:text-white transition-colors"
+                        className={`block px-4 py-3 text-sm transition-colors relative ${
+                          item.comingSoon
+                            ? 'text-gray-500 cursor-not-allowed hover:bg-gray-800/20'
+                            : 'text-gray-300 hover:bg-voltry-blue/10 hover:text-white'
+                        }`}
                         {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                        {...(item.comingSoon ? { onClick: (e: any) => e.preventDefault() } : {})}
                       >
-                        {item.name}
+                        <span className="flex items-center justify-between">
+                          <span>{item.name}</span>
+                          {item.comingSoon && (
+                            <span className="text-xs bg-gray-700 text-gray-400 px-2 py-0.5 rounded">Soon</span>
+                          )}
+                        </span>
                       </Link>
                     ))}
                   </motion.div>

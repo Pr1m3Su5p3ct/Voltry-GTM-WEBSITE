@@ -7,6 +7,21 @@ import { Star, GitFork, Users, Code } from 'lucide-react'
 const OpenSource = () => {
   return (
     <section className="relative py-20 bg-white overflow-hidden">
+      {/* Coming Soon Overlay */}
+      <div className="absolute inset-0 bg-white/80 backdrop-blur-md z-30 flex items-center justify-center">
+        <div className="text-center">
+          <motion.div
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="bg-gradient-to-br from-voltry-blue to-voltry-purple text-white px-12 py-8 rounded-2xl shadow-2xl border-4 border-white"
+          >
+            <h3 className="text-4xl font-bold mb-2">Coming Soon</h3>
+            <p className="text-xl opacity-90">Open Source Release Q2 2026</p>
+          </motion.div>
+        </div>
+      </div>
+
       {/* Background Accent */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-voltry-blue/5 to-transparent" />
 
