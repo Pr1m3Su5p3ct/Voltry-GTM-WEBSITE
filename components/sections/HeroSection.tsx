@@ -122,29 +122,86 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            {/* Animated Network Visualization */}
-            <div className="relative w-full h-[500px] rounded-2xl bg-gradient-to-br from-voltry-blue/10 to-voltry-purple/10 border border-voltry-blue/30 p-8 backdrop-blur-sm">
+            {/* Animated Network Visualization - Federated Learning */}
+            <div className="relative w-full h-[500px] rounded-2xl bg-gradient-to-br from-voltry-blue/10 to-voltry-purple/10 border border-voltry-blue/30 p-8 backdrop-blur-sm overflow-hidden">
+              {/* Connection Lines */}
+              <svg className="absolute inset-0 w-full h-full">
+                <defs>
+                  <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="rgb(0, 149, 255)" stopOpacity="0.2" />
+                    <stop offset="50%" stopColor="rgb(139, 92, 246)" stopOpacity="0.8" />
+                    <stop offset="100%" stopColor="rgb(0, 149, 255)" stopOpacity="0.2" />
+                  </linearGradient>
+                </defs>
+                {[0, 72, 144, 216, 288].map((angle, i) => {
+                  const x = 250 + Math.cos((angle * Math.PI) / 180) * 150
+                  const y = 250 + Math.sin((angle * Math.PI) / 180) * 150
+                  return (
+                    <motion.line
+                      key={i}
+                      x1="250"
+                      y1="250"
+                      x2={x}
+                      y2={y}
+                      stroke="url(#lineGradient)"
+                      strokeWidth="2"
+                      initial={{ pathLength: 0, opacity: 0 }}
+                      animate={{
+                        pathLength: [0, 1, 0],
+                        opacity: [0, 0.8, 0]
+                      }}
+                      transition={{
+                        duration: 3,
+                        repeat: Infinity,
+                        delay: i * 0.6,
+                        ease: "easeInOut"
+                      }}
+                    />
+                  )
+                })}
+              </svg>
+
               <div className="absolute inset-0 flex items-center justify-center">
-                {/* Central Node */}
+                {/* Central Node - Main AI Brain */}
                 <motion.div
-                  className="relative w-24 h-24 bg-gradient-to-br from-voltry-blue to-voltry-purple rounded-full flex items-center justify-center shadow-lg shadow-voltry-blue/50"
+                  className="relative w-24 h-24 bg-gradient-to-br from-voltry-blue to-voltry-purple rounded-full flex items-center justify-center shadow-lg z-10"
                   animate={{
                     boxShadow: [
                       '0 0 20px rgba(0, 149, 255, 0.5)',
-                      '0 0 40px rgba(0, 149, 255, 0.8)',
+                      '0 0 60px rgba(139, 92, 246, 0.9)',
                       '0 0 20px rgba(0, 149, 255, 0.5)',
                     ],
+                    scale: [1, 1.05, 1],
                   }}
                   transition={{ duration: 2, repeat: Infinity }}
                 >
                   <span className="text-white font-bold text-2xl">V</span>
+
+                  {/* Pulsing rings */}
+                  {[0, 1, 2].map((i) => (
+                    <motion.div
+                      key={i}
+                      className="absolute inset-0 rounded-full border-2 border-voltry-blue"
+                      initial={{ scale: 1, opacity: 0.8 }}
+                      animate={{
+                        scale: [1, 2.5, 2.5],
+                        opacity: [0.8, 0, 0],
+                      }}
+                      transition={{
+                        duration: 3,
+                        repeat: Infinity,
+                        delay: i * 1,
+                        ease: "easeOut",
+                      }}
+                    />
+                  ))}
                 </motion.div>
 
-                {/* Orbiting Nodes */}
+                {/* Orbiting Facility Nodes with Data Particles */}
                 {[0, 72, 144, 216, 288].map((angle, i) => (
                   <motion.div
                     key={i}
-                    className="absolute w-16 h-16 bg-voltry-navy border-2 border-voltry-blue rounded-full flex items-center justify-center"
+                    className="absolute"
                     style={{
                       left: '50%',
                       top: '50%',
@@ -163,26 +220,116 @@ const HeroSection = () => {
                       delay: i * 0.5,
                     }}
                   >
-                    <div className="w-3 h-3 bg-voltry-blue rounded-full" />
+                    <motion.div
+                      className="relative w-16 h-16 bg-voltry-navy border-2 border-voltry-blue rounded-full flex items-center justify-center"
+                      animate={{
+                        borderColor: ['rgb(0, 149, 255)', 'rgb(139, 92, 246)', 'rgb(0, 149, 255)'],
+                        boxShadow: [
+                          '0 0 10px rgba(0, 149, 255, 0.3)',
+                          '0 0 20px rgba(139, 92, 246, 0.6)',
+                          '0 0 10px rgba(0, 149, 255, 0.3)',
+                        ],
+                      }}
+                      transition={{
+                        duration: 2,
+                        repeat: Infinity,
+                        delay: i * 0.4,
+                      }}
+                    >
+                      <motion.div
+                        className="w-3 h-3 bg-voltry-blue rounded-full"
+                        animate={{
+                          scale: [1, 1.5, 1],
+                          backgroundColor: ['rgb(0, 149, 255)', 'rgb(132, 204, 22)', 'rgb(0, 149, 255)'],
+                        }}
+                        transition={{
+                          duration: 2,
+                          repeat: Infinity,
+                          delay: i * 0.3,
+                        }}
+                      />
+
+                      {/* Data Upload Indicator */}
+                      <motion.div
+                        className="absolute -top-1 -right-1 w-2 h-2 bg-voltry-lime rounded-full"
+                        animate={{
+                          scale: [0, 1.5, 0],
+                          opacity: [0, 1, 0],
+                        }}
+                        transition={{
+                          duration: 1.5,
+                          repeat: Infinity,
+                          delay: i * 0.3,
+                        }}
+                      />
+                    </motion.div>
+
+                    {/* Data Particles flowing to center */}
+                    {[0, 1].map((j) => (
+                      <motion.div
+                        key={`particle-${i}-${j}`}
+                        className="absolute w-1 h-1 bg-voltry-lime rounded-full"
+                        style={{
+                          left: '50%',
+                          top: '50%',
+                        }}
+                        animate={{
+                          x: [0, -Math.cos((angle * Math.PI) / 180) * 150],
+                          y: [0, -Math.sin((angle * Math.PI) / 180) * 150],
+                          opacity: [0, 1, 0],
+                          scale: [0, 1, 0],
+                        }}
+                        transition={{
+                          duration: 2,
+                          repeat: Infinity,
+                          delay: i * 0.4 + j * 1,
+                          ease: "easeInOut",
+                        }}
+                      />
+                    ))}
                   </motion.div>
                 ))}
               </div>
 
-              {/* Animated Waveforms */}
-              <div className="absolute bottom-8 left-8 right-8 space-y-2">
-                {[0, 1, 2].map((i) => (
-                  <div key={i} className="h-1 bg-voltry-blue/20 rounded-full overflow-hidden">
-                    <motion.div
-                      className="h-full bg-gradient-to-r from-voltry-blue to-voltry-purple rounded-full"
-                      initial={{ width: '0%' }}
-                      animate={{ width: '100%' }}
-                      transition={{
-                        duration: 2,
-                        repeat: Infinity,
-                        delay: i * 0.3,
-                        ease: 'easeInOut',
-                      }}
-                    />
+              {/* Learning Progress Bars */}
+              <div className="absolute bottom-8 left-8 right-8 space-y-3">
+                <div className="flex items-center justify-between text-xs text-gray-400 mb-1">
+                  <span>Federated Learning Progress</span>
+                  <motion.span
+                    className="text-voltry-lime font-semibold"
+                    animate={{ opacity: [1, 0.5, 1] }}
+                    transition={{ duration: 2, repeat: Infinity }}
+                  >
+                    95% Accuracy
+                  </motion.span>
+                </div>
+                {['Electrical', 'Mechanical', 'Acoustic'].map((domain, i) => (
+                  <div key={i} className="space-y-1">
+                    <div className="flex justify-between text-xs text-gray-500">
+                      <span>{domain}</span>
+                      <motion.span
+                        animate={{ opacity: [0.5, 1, 0.5] }}
+                        transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.2 }}
+                      >
+                        {[250, 250, 250][i]}+ facilities
+                      </motion.span>
+                    </div>
+                    <div className="h-1.5 bg-voltry-navy/50 rounded-full overflow-hidden">
+                      <motion.div
+                        className="h-full rounded-full"
+                        style={{
+                          background: 'linear-gradient(90deg, rgb(0, 149, 255), rgb(139, 92, 246), rgb(132, 204, 22))'
+                        }}
+                        initial={{ width: '0%' }}
+                        animate={{ width: ['0%', '100%', '100%'] }}
+                        transition={{
+                          duration: 3,
+                          repeat: Infinity,
+                          delay: i * 0.3,
+                          ease: 'easeInOut',
+                        }}
+                      />
+                    </div>
                   </div>
                 ))}
               </div>
