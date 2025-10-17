@@ -1,0 +1,254 @@
+
+## HERO ILLUSTRATIONS (16:9 Landscape)
+
+### IL01 - Power Grid Network Map
+**Aspect Ratio: 16:9**
+```
+Create an isometric illustration of a city power grid network showing interconnected electrical infrastructure, transmission towers, substations, and energy flow lines. Dark background #0A0A0A with Electric Purple #9C27FF and Voltage Lime #A4FF00 glowing connection lines. Geometric buildings, clean lines, technical precision. Show energy flowing through the grid with animated glow effects. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+### IL02 - Voltage Waveform Visualization
+**Aspect Ratio: 16:9**
+```
+Create a technical illustration showing perfect sine wave voltage waveforms in 3D perspective. Dark background #0A0A0A with Electric Purple #9C27FF primary waveform and Voltage Lime #A4FF00 harmonic waves. Clean geometric curves, electrical precision, glowing wave trails. Show multiple overlapping waveforms representing power quality. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+### IL03 - Smart Grid Control Center
+**Aspect Ratio: 16:9**
+```
+Create an illustration of a futuristic power grid control center with holographic displays, data visualizations, and monitoring screens. Dark environment #0A0A0A with glowing Electric Purple #9C27FF and Voltage Lime #A4FF00 interface elements. Geometric screens, circuit patterns, technical aesthetic. Show energy data flowing across displays. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+### IL04 - Energy Distribution System
+**Aspect Ratio: 16:9**
+```
+Create an abstract illustration showing electrical energy distribution from power station to end users. Dark background #0A0A0A with Electric Purple #9C27FF power lines branching out in geometric patterns to Voltage Lime #A4FF00 connection nodes. Clean technical diagram style, glowing pathways, minimal geometric buildings. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+### IL05 - Power Quality Dashboard Abstract
+**Aspect Ratio: 16:9**
+```
+Create an abstract illustration of floating data panels and metrics displays showing power quality measurements. Dark space #0A0A0A with geometric panel frames in Electric Purple #9C27FF, data visualizations in Data Cyan #0EA5E9, and Voltage Lime #A4FF00 accents. Circular gauges, waveforms, bar charts floating in 3D space. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+### IL06 - Transmission Tower Landscape
+**Aspect Ratio: 16:9**
+```
+Create a minimalist illustration of electrical transmission towers stretching across landscape in silhouette. Dark gradient background from #0A0A0A to #141414 with Electric Purple #9C27FF and Voltage Lime #A4FF00 glowing power lines connecting towers. Geometric tower structures, clean lines, perspective depth. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+---
+
+## VERTICAL GRAPHICS (9:16 Portrait)
+
+### IL07 - Vertical Energy Flow
+**Aspect Ratio: 9:16**
+```
+Create a vertical illustration showing electrical energy flowing upward through geometric power infrastructure. Dark background #0A0A0A with Electric Purple #9C27FF energy stream flowing from bottom to top, passing through Voltage Lime #A4FF00 nodes and geometric shapes. Technical precision, glowing effects. NO TEXT, NO WORDS. High resolution PNG, 9:16 aspect ratio
+```
+
+### IL08 - Mobile Power Monitor
+**Aspect Ratio: 9:16**
+```
+Create a vertical illustration of a smartphone or mobile device displaying power grid monitoring interface. Dark background #0A0A0A with device showing Electric Purple #9C27FF and Voltage Lime #A4FF00 data visualizations. Floating holographic elements around device, geometric precision. NO TEXT, NO WORDS. High resolution PNG, 9:16 aspect ratio
+```
+
+### IL09 - Vertical Circuit Path
+**Aspect Ratio: 9:16**
+```
+Create a vertical illustration showing an electrical circuit pathway running from top to bottom with branching connections. Dark background #0A0A0A with Electric Purple #9C27FF circuit traces, Voltage Lime #A4FF00 nodes, and Data Cyan #0EA5E9 connection points. Geometric precision, glowing effects, technical aesthetic. NO TEXT, NO WORDS. High resolution PNG, 9:16 aspect ratio
+```
+
+### IL10 - Tower to Cloud Connection
+**Aspect Ratio: 9:16**
+```
+Create a vertical illustration showing transmission tower at bottom connected to cloud computing elements at top. Dark background #0A0A0A with Electric Purple #9C27FF tower structure, Voltage Lime #A4FF00 data streams flowing upward to geometric cloud shapes. Modern infrastructure meets digital technology. NO TEXT, NO WORDS. High resolution PNG, 9:16 aspect ratio
+```
+
+---
+
+## SOCIAL MEDIA GRAPHICS (1:1 Square)
+
+### IL11 - Power Quality Icon Burst
+**Aspect Ratio: 1:1**
+```
+Create a centered abstract burst illustration with geometric shapes radiating from center representing power quality optimization. Dark background #0A0A0A with Electric Purple #9C27FF and Voltage Lime #A4FF00 geometric rays, shapes, and particles. Clean, modern, energetic. Electric glow effects. NO TEXT, NO WORDS. High resolution PNG, 1:1 square aspect ratio
+```
+
+### IL12 - Voltage Stability Symbol
+**Aspect Ratio: 1:1**
+```
+Create a centered geometric symbol representing voltage stability with circular rings and sine wave elements. Dark background #0A0A0A with Electric Purple #9C27FF outer rings, Voltage Lime #A4FF00 inner elements, perfect waveform at center. Symmetrical, technical precision, glowing effects. NO TEXT, NO WORDS. High resolution PNG, 1:1 square aspect ratio
+```
+
+### IL13 - Grid Node Network
+**Aspect Ratio: 1:1**
+```
+Create an abstract network of interconnected nodes representing power grid intelligence. Dark background #0A0A0A with Electric Purple #9C27FF connection lines linking geometric Voltage Lime #A4FF00 nodes in circular pattern. Symmetrical network design, glowing connections. NO TEXT, NO WORDS. High resolution PNG, 1:1 square aspect ratio
+```
+
+### IL14 - Energy Efficiency Circle
+**Aspect Ratio: 1:1**
+```
+Create a circular progress-style illustration showing energy efficiency metrics. Dark background #0A0A0A with Electric Purple #9C27FF circular gauge, Efficiency Green #22C55E progress indicator, and Voltage Lime #A4FF00 accents. Geometric precision, clean lines, centered composition. NO TEXT, NO WORDS. High resolution PNG, 1:1 square aspect ratio
+```
+
+### IL15 - Power Analysis Sphere
+**Aspect Ratio: 1:1**
+```
+Create a 3D sphere illustration with geometric grid lines representing global power analysis. Dark background #0A0A0A with sphere outlined in Electric Purple #9C27FF grid, Voltage Lime #A4FF00 data points glowing on surface, Data Cyan #0EA5E9 orbital rings. Technical, futuristic. NO TEXT, NO WORDS. High resolution PNG, 1:1 square aspect ratio
+```
+
+---
+
+## WIDE BANNERS (21:9 Ultrawide)
+
+### IL16 - Energy Horizon Panorama
+**Aspect Ratio: 21:9**
+```
+Create an ultrawide panoramic illustration of power infrastructure stretching across horizon. Dark background #0A0A0A with silhouetted transmission towers, Electric Purple #9C27FF and Voltage Lime #A4FF00 power lines creating glowing network across scene. Minimal, geometric, wide perspective. NO TEXT, NO WORDS. High resolution PNG, 21:9 aspect ratio
+```
+
+### IL17 - Data Flow Stream
+**Aspect Ratio: 21:9**
+```
+Create an ultrawide illustration of electrical data flowing horizontally like a stream. Dark background #0A0A0A with Electric Purple #9C27FF data particles flowing left to right, Voltage Lime #A4FF00 energy waves, Data Cyan #0EA5E9 information nodes. Dynamic flow, geometric elements. NO TEXT, NO WORDS. High resolution PNG, 21:9 aspect ratio
+```
+
+### IL18 - Grid Infrastructure Timeline
+**Aspect Ratio: 21:9**
+```
+Create an ultrawide illustration showing evolution of power grid infrastructure in geometric progression. Dark background #0A0A0A with Electric Purple #9C27FF connecting line running horizontally, geometric representations of grid elements along timeline, Voltage Lime #A4FF00 accents. Clean, technical, progressive. NO TEXT, NO WORDS. High resolution PNG, 21:9 aspect ratio
+```
+
+---
+
+## SOCIAL POSTS (4:5 Vertical)
+
+### IL19 - Mobile Grid Monitoring
+**Aspect Ratio: 4:5**
+```
+Create an illustration showing handheld device monitoring power grid with augmented reality overlay. Dark background #0A0A0A with device displaying Electric Purple #9C27FF grid visualization, Voltage Lime #A4FF00 AR elements floating around device, Data Cyan #0EA5E9 metrics. Modern, technical. NO TEXT, NO WORDS. High resolution PNG, 4:5 aspect ratio
+```
+
+### IL20 - Vertical Power Station
+**Aspect Ratio: 4:5**
+```
+Create a geometric illustration of modern power generation facility in vertical composition. Dark background #0A0A0A with Electric Purple #9C27FF structure outlines, Voltage Lime #A4FF00 energy emissions, geometric building forms. Clean architectural style, glowing elements. NO TEXT, NO WORDS. High resolution PNG, 4:5 aspect ratio
+```
+
+### IL21 - Quality Metrics Display
+**Aspect Ratio: 4:5**
+```
+Create an illustration of floating power quality metric panels in vertical arrangement. Dark background #0A0A0A with geometric panel frames in Electric Purple #9C27FF, data visualizations in different brand colors (Voltage Lime #A4FF00, Data Cyan #0EA5E9, Efficiency Green #22C55E). Clean, organized, technical. NO TEXT, NO WORDS. High resolution PNG, 4:5 aspect ratio
+```
+
+---
+
+## EMAIL/WEB HEADERS (5:1 Wide Strip)
+
+### IL22 - Minimal Grid Header
+**Aspect Ratio: 5:1**
+```
+Create a minimal wide header illustration with subtle power grid pattern. Dark background #0A0A0A with very subtle Electric Purple #9C27FF grid lines, Voltage Lime #A4FF00 accent glow on one side. Clean, professional, minimal geometric elements. NO TEXT, NO WORDS. High resolution PNG, 5:1 aspect ratio
+```
+
+### IL23 - Energy Flow Header
+**Aspect Ratio: 5:1**
+```
+Create a wide header showing abstract energy flowing horizontally. Dark background #0A0A0A with Electric Purple #9C27FF flowing lines moving left to right, Voltage Lime #A4FF00 particles, subtle glow effects. Dynamic but subtle, professional. NO TEXT, NO WORDS. High resolution PNG, 5:1 aspect ratio
+```
+
+### IL24 - Circuit Pattern Header
+**Aspect Ratio: 5:1**
+```
+Create a wide header with subtle circuit board pattern design. Dark background #141414 with Electric Purple #9C27FF circuit traces at low opacity, Voltage Lime #A4FF00 connection nodes. Minimal, technical, professional backdrop. NO TEXT, NO WORDS. High resolution PNG, 5:1 aspect ratio
+```
+
+---
+
+## TECHNICAL DIAGRAMS (3:2 Landscape)
+
+### IL25 - Power Quality Flow Diagram
+**Aspect Ratio: 3:2**
+```
+Create a technical flow diagram showing power quality monitoring process. Dark background #0A0A0A with geometric shapes connected by Electric Purple #9C27FF arrows showing flow from input to output, Voltage Lime #A4FF00 process nodes, Data Cyan #0EA5E9 monitoring points. Clean diagram style, geometric precision. NO TEXT, NO WORDS. High resolution PNG, 3:2 aspect ratio
+```
+
+### IL26 - Grid Architecture Diagram
+**Aspect Ratio: 3:2**
+```
+Create an isometric technical diagram of power grid architecture layers. Dark background #0A0A0A with geometric layers showing infrastructure in Electric Purple #9C27FF, distribution in Voltage Lime #A4FF00, and monitoring in Data Cyan #0EA5E9. Clean, organized, technical illustration. NO TEXT, NO WORDS. High resolution PNG, 3:2 aspect ratio
+```
+
+### IL27 - Waveform Analysis Diagram
+**Aspect Ratio: 3:2**
+```
+Create a technical diagram showing voltage waveform analysis with clean sine waves and harmonic overlays. Dark background #0A0A0A with primary waveform in Electric Purple #9C27FF, harmonic waves in Voltage Lime #A4FF00, analysis markers in Data Cyan #0EA5E9. Precise geometric curves, technical accuracy. NO TEXT, NO WORDS. High resolution PNG, 3:2 aspect ratio
+```
+
+### IL28 - Energy Distribution Map
+**Aspect Ratio: 3:2**
+```
+Create a simplified map-style diagram showing energy distribution network in geometric form. Dark background #0A0A0A with Electric Purple #9C27FF main distribution lines, Voltage Lime #A4FF00 secondary connections, geometric nodes and hubs. Clean technical illustration. NO TEXT, NO WORDS. High resolution PNG, 3:2 aspect ratio
+```
+
+---
+
+## CONCEPT ILLUSTRATIONS (2:3 Vertical)
+
+### IL29 - Vertical Infrastructure Stack
+**Aspect Ratio: 2:3**
+```
+Create a vertical illustration showing stacked layers of power infrastructure from generation to consumption. Dark background #0A0A0A with geometric layers in Electric Purple #9C27FF and Voltage Lime #A4FF00, connected by flowing energy lines. Clean layered design, technical precision. NO TEXT, NO WORDS. High resolution PNG, 2:3 aspect ratio
+```
+
+### IL30 - Smart Meter Concept
+**Aspect Ratio: 2:3**
+```
+Create a vertical illustration of modern smart meter device with digital display and connectivity. Dark background #0A0A0A with device in geometric style, Electric Purple #9C27FF display elements, Voltage Lime #A4FF00 wireless signals emanating, Data Cyan #0EA5E9 data streams. Technical, modern. NO TEXT, NO WORDS. High resolution PNG, 2:3 aspect ratio
+```
+
+---
+
+## PRESENTATION SLIDES (16:9 Landscape)
+
+### IL31 - Abstract Power Concept
+**Aspect Ratio: 16:9**
+```
+Create an abstract geometric illustration representing power optimization concept. Dark background #0A0A0A with large geometric shapes in Electric Purple #9C27FF on left side transitioning to Voltage Lime #A4FF00 organized shapes on right, showing transformation from chaos to order. Clean, modern, conceptual. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+### IL32 - Efficiency Visualization
+**Aspect Ratio: 16:9**
+```
+Create an illustration showing energy efficiency improvement through geometric transformation. Dark background #0A0A0A with inefficient scattered elements in Electric Purple #9C27FF on left becoming streamlined Efficiency Green #22C55E efficient flow on right, connected by Voltage Lime #A4FF00 optimization process. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+### IL33 - Network Intelligence
+**Aspect Ratio: 16:9**
+```
+Create an illustration of AI-powered grid intelligence with neural network style connections. Dark background #0A0A0A with Electric Purple #9C27FF network nodes connected in brain-like pattern, Voltage Lime #A4FF00 active synapses, Data Cyan #0EA5E9 data flowing through connections. Futuristic, intelligent, geometric. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+### IL34 - Real-Time Monitoring
+**Aspect Ratio: 16:9**
+```
+Create an illustration showing real-time power monitoring across multiple locations. Dark background #0A0A0A with geometric map-like layout, Electric Purple #9C27FF location markers, Voltage Lime #A4FF00 live data pulses, Data Cyan #0EA5E9 connection lines. Dynamic, technical, clean. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+### IL35 - Predictive Analytics
+**Aspect Ratio: 16:9**
+```
+Create an illustration showing predictive power analytics with forecast visualization. Dark background #0A0A0A with geometric chart elements showing past data in Electric Purple #9C27FF, predicted future in Voltage Lime #A4FF00, confidence intervals in Data Cyan #0EA5E9. Technical, forward-looking. NO TEXT, NO WORDS. High resolution PNG, 16:9 aspect ratio
+```
+
+---
+
+**File Naming Convention:**
+`voltry-illustration-[number]-[name].png`
+
+**Examples:**
+- `voltry-illustration-01-power-grid-network.png`
+- `voltry-illustration-07-vertical-energy-flow.png`
+- `voltry-illustration-22-minimal-grid-header.png`

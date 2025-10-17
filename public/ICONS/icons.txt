@@ -1,0 +1,180 @@
+
+
+
+## CORE NAVIGATION ICONS
+
+### 01 - Dashboard Icon
+```
+Create a minimal dashboard icon with a 2x2 grid of squares, sharp 90-degree angles, geometric precision, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing a control panel interface
+```
+
+### 02 - Analytics Icon
+```
+Create a minimal analytics icon showing ascending bar chart with 3-4 bars of increasing height, sharp geometric bars, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing data visualization
+```
+
+### 03 - Grid Network Icon
+```
+Create a minimal grid network icon with interconnected nodes in a 3x3 pattern, straight lines connecting circular nodes, geometric precision, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing power grid infrastructure
+```
+
+### 04 - Settings Icon
+```
+Create a minimal settings gear icon with 6-8 evenly spaced teeth, perfect circular center, sharp geometric precision, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing system configuration
+```
+
+### 05 - Notifications Icon
+```
+Create a minimal notification bell icon with clean curves, geometric clapper inside, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing alerts and updates
+```
+
+### 06 - User Profile Icon
+```
+Create a minimal user profile icon showing circular head and curved shoulders silhouette, simple geometric shapes, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing account access
+```
+
+### 07 - Menu Icon
+```
+Create a minimal hamburger menu icon with three horizontal parallel lines evenly spaced, sharp edges, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing navigation menu
+```
+
+### 08 - Search Icon
+```
+Create a minimal search icon with perfect circle magnifying glass and angled handle, geometric precision, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing search function
+```
+
+---
+
+## ENERGY MANAGEMENT ICONS
+
+### 09 - Lightning Bolt Icon
+```
+Create a minimal lightning bolt icon with sharp angular zigzag shape, geometric points, electrical energy aesthetic, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing voltage and power
+```
+
+### 10 - Battery Icon
+```
+Create a minimal battery icon showing rectangular body with terminal cap, internal charge level indicator bars, geometric precision, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing charge status
+```
+
+### 11 - Power Plug Icon
+```
+Create a minimal electrical plug icon with two prongs and rounded body, industrial connector aesthetic, geometric shapes, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing connection
+```
+
+### 12 - Solar Panel Icon
+```
+Create a minimal solar panel icon showing rectangular panel divided into grid sections, geometric cells pattern, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing renewable solar energy
+```
+
+### 13 - Wind Turbine Icon
+```
+Create a minimal wind turbine icon with three angular blades on central pole, geometric propeller design, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing wind power generation
+```
+
+### 14 - Transmission Tower Icon
+```
+Create a minimal electrical transmission tower icon with triangular lattice structure, geometric framework, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing power infrastructure
+```
+
+### 15 - Circuit Chip Icon
+```
+Create a minimal circuit chip icon showing square processor with connection pins on sides, geometric circuit paths inside, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing smart grid technology
+```
+
+### 16 - Gauge Meter Icon
+```
+Create a minimal gauge meter icon with semicircular dial, needle pointer at center, geometric measurement markings, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing monitoring and metrics
+```
+
+### 17 - Power Station Icon
+```
+Create a minimal power station icon showing industrial building with cooling tower, geometric structures, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing energy generation facility
+```
+
+### 18 - Energy Flow Icon
+```
+Create a minimal energy flow icon with circular arrows forming continuous loop, geometric curved arrows, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing power circulation
+```
+
+---
+
+## STATUS & ALERT ICONS
+
+### 19 - Warning Triangle Icon
+```
+Create a minimal warning triangle icon with equilateral triangle outline and exclamation mark inside, sharp geometric angles, 2px stroke weight. Use Overload Gold #F59E0B. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing caution alerts
+```
+
+### 20 - Error Alert Icon
+```
+Create a minimal error circle icon with perfect circle outline and X mark inside, geometric precision, 2px stroke weight. Use Fault Red #FF4560. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing critical errors
+```
+
+### 21 - Success Checkmark Icon
+```
+Create a minimal success checkmark icon with angular check mark, sharp geometric angles forming tick shape, 2px stroke weight. Use Efficiency Green #22C55E. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing confirmation
+```
+
+### 22 - Info Circle Icon
+```
+Create a minimal info circle icon with perfect circle outline and lowercase i inside, geometric precision, 2px stroke weight. Use Data Cyan #0EA5E9. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing information
+```
+
+### 23 - Critical Flame Icon
+```
+Create a minimal flame icon with angular geometric fire shape, sharp pointed tips, stylized heat design, 2px stroke weight. Use Fault Red #FF4560. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing critical overload
+```
+
+### 24 - Offline Disconnected Icon
+```
+Create a minimal disconnected icon showing broken link or crossed-out connection symbol, geometric break pattern, 2px stroke weight. Use Circuit Silver #9AA0A6. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing offline status
+```
+
+---
+
+## ACTION & CONTROL ICONS
+
+### 25 - Play Start Icon
+```
+Create a minimal play icon with right-pointing triangle, sharp geometric angles, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing start or activate action
+```
+
+### 26 - Pause Icon
+```
+Create a minimal pause icon with two vertical parallel rectangular bars evenly spaced, geometric precision, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing pause action
+```
+
+### 27 - Stop Icon
+```
+Create a minimal stop icon with perfect square shape, sharp 90-degree corners, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing stop or halt action
+```
+
+### 28 - Refresh Sync Icon
+```
+Create a minimal refresh icon with two curved arrows forming circular loop, geometric curved paths, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing synchronization
+```
+
+### 29 - Download Export Icon
+```
+Create a minimal download icon with downward-pointing arrow above horizontal line, sharp geometric arrow, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing data export
+```
+
+### 30 - Upload Icon
+```
+Create a minimal upload icon with upward-pointing arrow above horizontal line, sharp geometric arrow, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing data import
+```
+
+### 31 - Filter Icon
+```
+Create a minimal filter funnel icon with inverted triangle/funnel shape, geometric tapering design, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing filtering options
+```
+
+### 32 - Calendar Schedule Icon
+```
+Create a minimal calendar icon with rectangular grid showing date cells, geometric month view layout, 2px stroke weight. Use Electric Purple #9C27FF or Voltage Lime #A4FF00. NO BACKGROUND, NO WORDS, NO TEXT, transparent background, high resolution PNG, clean vector-style illustration representing scheduling
+```
+
+---
+
+**File naming:** `voltry-icon-[number]-[name].png`
