@@ -89,7 +89,12 @@ const Footer = () => {
               <li><Link href="/platform/voltrycore" className="text-gray-400 hover:text-white text-sm transition-colors">Multi-Domain Sensors</Link></li>
               <li><Link href="/platform/voltryguard" className="text-gray-400 hover:text-white text-sm transition-colors">Active Control</Link></li>
               <li><Link href="/platform/mcp" className="text-gray-400 hover:text-white text-sm transition-colors">MCP Server</Link></li>
-              <li><Link href="/docs" className="text-gray-400 hover:text-white text-sm transition-colors">Technical Docs</Link></li>
+              <li>
+                <span className="text-gray-500 text-sm cursor-not-allowed flex items-center gap-2">
+                  Technical Docs
+                  <span className="text-xs bg-gray-700 text-gray-500 px-2 py-0.5 rounded">Soon</span>
+                </span>
+              </li>
             </ul>
           </div>
 
@@ -101,7 +106,12 @@ const Footer = () => {
               <li><Link href="/solutions/utilities" className="text-gray-400 hover:text-white text-sm transition-colors">Utilities & Substations</Link></li>
               <li><Link href="/solutions/der-microgrids" className="text-gray-400 hover:text-white text-sm transition-colors">DER & Microgrids</Link></li>
               <li><Link href="/solutions/industrial" className="text-gray-400 hover:text-white text-sm transition-colors">Industrial Facilities</Link></li>
-              <li><Link href="/resources/case-studies" className="text-gray-400 hover:text-white text-sm transition-colors">Case Studies</Link></li>
+              <li>
+                <span className="text-gray-500 text-sm cursor-not-allowed flex items-center gap-2">
+                  Case Studies
+                  <span className="text-xs bg-gray-700 text-gray-500 px-2 py-0.5 rounded">Soon</span>
+                </span>
+              </li>
             </ul>
           </div>
 
@@ -114,7 +124,12 @@ const Footer = () => {
               <li><Link href="/careers" className="text-gray-400 hover:text-white text-sm transition-colors">Careers</Link></li>
               <li><Link href="/press" className="text-gray-400 hover:text-white text-sm transition-colors">Press Kit</Link></li>
               <li><Link href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">Contact</Link></li>
-              <li><Link href="/blog" className="text-gray-400 hover:text-white text-sm transition-colors">Blog</Link></li>
+              <li>
+                <span className="text-gray-500 text-sm cursor-not-allowed flex items-center gap-2">
+                  Blog
+                  <span className="text-xs bg-gray-700 text-gray-500 px-2 py-0.5 rounded">Soon</span>
+                </span>
+              </li>
             </ul>
           </div>
 
