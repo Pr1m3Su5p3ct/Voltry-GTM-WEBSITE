@@ -412,7 +412,7 @@ export default function VoltryCoreePage() {
                       />
                     ))}
 
-                    {/* Waveform */}
+                    {/* Waveform - Continuous Drawing */}
                     <motion.path
                       d={`M ${sensorSpecs[activeTab].waveformData
                         .map((y, x) => `${(x / sensorSpecs[activeTab].waveformData.length) * 100},${y}`)
@@ -427,8 +427,13 @@ export default function VoltryCoreePage() {
                       }
                       strokeWidth="2"
                       initial={{ pathLength: 0 }}
-                      animate={{ pathLength: 1 }}
-                      transition={{ duration: 2, ease: "easeInOut" }}
+                      animate={{ pathLength: [0, 1] }}
+                      transition={{
+                        duration: 3,
+                        ease: "linear",
+                        repeat: Infinity,
+                        repeatDelay: 0.5
+                      }}
                       vectorEffect="non-scaling-stroke"
                     />
                   </svg>
