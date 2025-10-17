@@ -186,7 +186,7 @@ const DataCentersPage = () => {
                 {
                   title: 'Noise Compliance',
                   description: 'Automated acoustic monitoring and reporting for local noise ordinances. Generate compliance reports in seconds.',
-                  metric: '95% faster permit renewals'
+                  metric: '91% faster permit renewals'
                 },
                 {
                   title: 'Capacity Planning',
@@ -378,7 +378,7 @@ const DataCentersPage = () => {
               { value: '30%', label: 'Cooling Cost Reduction', color: 'voltry-blue' },
               { value: '99.999%', label: 'Uptime Achieved', color: 'voltry-lime' },
               { value: '48hrs', label: 'Failure Warning Time', color: 'voltry-purple' },
-              { value: '95%', label: 'Faster Compliance', color: 'voltry-blue' }
+              { value: '91%', label: 'Faster Compliance', color: 'voltry-blue' }
             ].map((metric, index) => (
               <motion.div
                 key={index}
@@ -494,7 +494,7 @@ const DataCentersPage = () => {
               Ready to Achieve Five 9s?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Join 250+ facilities using VoltryOS for mission-critical operations.
+              Join those with 50M training hours using VoltryOS for mission-critical operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

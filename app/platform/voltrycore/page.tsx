@@ -1050,7 +1050,7 @@ export default function VoltryCoreePage() {
               Ready to Transform Your Infrastructure Monitoring?
             </h2>
             <p className="text-xl text-gray-400 mb-12">
-              Join 250+ facilities leveraging VoltryCore's multi-domain sensing
+              Join those with 50M training hours leveraging VoltryCore's multi-domain sensing
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">

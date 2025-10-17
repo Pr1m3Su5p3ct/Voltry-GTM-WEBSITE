@@ -15,14 +15,14 @@ interface Metric {
 
 const metrics: Metric[] = [
   {
-    value: '250+',
-    label: 'Facilities Deployed',
-    countUp: { start: 0, end: 250, suffix: '+' }
+    value: '50M',
+    label: 'Training Hours',
+    countUp: { start: 0, end: 50, suffix: 'M' }
   },
   {
-    value: '95%',
+    value: '91%',
     label: 'Prediction Accuracy',
-    countUp: { start: 0, end: 95, suffix: '%' }
+    countUp: { start: 0, end: 91, suffix: '%' }
   },
   {
     value: '10+',

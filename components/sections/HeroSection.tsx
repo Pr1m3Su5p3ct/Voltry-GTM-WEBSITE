@@ -107,9 +107,9 @@ const HeroSection = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 1 }}
             >
-              <span>Trusted by 250+ facilities</span>
+              <span>Trusted by 50M training hours</span>
               <span className="text-gray-600">|</span>
-              <span>95% prediction accuracy</span>
+              <span>91% prediction accuracy</span>
               <span className="text-gray-600">|</span>
               <span>10+ patents filed</span>
             </motion.div>
@@ -300,7 +300,7 @@ const HeroSection = () => {
                     animate={{ opacity: [1, 0.5, 1] }}
                     transition={{ duration: 2, repeat: Infinity }}
                   >
-                    95% Accuracy
+                    91% Accuracy
                   </motion.span>
                 </div>
                 {['Electrical', 'Mechanical', 'Acoustic'].map((domain, i) => (
@@ -311,7 +311,7 @@ const HeroSection = () => {
                         animate={{ opacity: [0.5, 1, 0.5] }}
                         transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.2 }}
                       >
-                        {[250, 250, 250][i]}+ facilities
+                        50M training hours
                       </motion.span>
                     </div>
                     <div className="h-1.5 bg-voltry-navy/50 rounded-full overflow-hidden">
@@ -341,7 +341,7 @@ const HeroSection = () => {
               animate={{ y: [-5, 5, -5] }}
               transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
             >
-              <p className="text-voltry-blue font-bold text-2xl">95%</p>
+              <p className="text-voltry-blue font-bold text-2xl">91%</p>
               <p className="text-gray-400 text-sm">Accuracy</p>
             </motion.div>
 

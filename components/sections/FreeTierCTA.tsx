@@ -150,7 +150,7 @@ const FreeTierCTA = () => {
               </svg>
             </div>
             <div className="text-left">
-              <p className="text-white font-semibold">250+ facilities</p>
+              <p className="text-white font-semibold">50M training hours</p>
               <p className="text-gray-400 text-sm">trust VoltryOS</p>
             </div>
           </div>

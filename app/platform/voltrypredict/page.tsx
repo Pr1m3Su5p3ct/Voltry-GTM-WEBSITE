@@ -37,7 +37,7 @@ const staggerContainer = {
 }
 
 // Accuracy Gauge Component
-function AccuracyGauge({ accuracy = 95 }: { accuracy: number }) {
+function AccuracyGauge({ accuracy = 91 }: { accuracy: number }) {
   const circumference = 2 * Math.PI * 90
   const offset = circumference - (accuracy / 100) * circumference
 
@@ -276,7 +276,7 @@ function FederatedLearningDiagram() {
           animate={{ opacity: [0.7, 1, 0.7] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          <div className="text-xs font-mono font-bold text-voltry-lime">95% Accurate</div>
+          <div className="text-xs font-mono font-bold text-voltry-lime">91% Accurate</div>
         </motion.div>
       </motion.div>
 
@@ -579,7 +579,7 @@ export default function VoltryPredictPage() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              95% prediction accuracy. 24-48 hour early warning. Powered by federated AI learning from 500+ facilities.
+              91% prediction accuracy. 24-48 hour early warning. Powered by federated AI learning from 50M training hours.
             </motion.p>
 
             {/* Key metrics */}
@@ -593,17 +593,22 @@ export default function VoltryPredictPage() {
                 { icon: Target, value: '95%', label: 'Prediction Accuracy' },
                 { icon: Timer, value: '24-48h', label: 'Early Warning Window' },
                 { icon: Network, value: '500+', label: 'Learning Facilities' }
-              ].map((metric, index) => (
+              ].map((metric, index) => {
+                const displayValue = metric.label === 'Prediction Accuracy' ? '91%' :
+                                   metric.label === 'Learning Facilities' ? '50M' : metric.value;
+                const displayLabel = metric.label === 'Learning Facilities' ? 'Training Hours' : metric.label;
+                return (
                 <motion.div
                   key={metric.label}
                   variants={fadeInUp}
                   className="bg-slate-900/50 backdrop-blur-sm rounded-xl p-6 border border-voltry-blue/20 hover:border-voltry-blue/40 transition-all duration-300"
                 >
                   <metric.icon className="mx-auto mb-3 text-voltry-blue" size={32} />
-                  <div className="text-3xl font-bold text-voltry-blue mb-1">{metric.value}</div>
-                  <div className="text-sm text-gray-400">{metric.label}</div>
+                  <div className="text-3xl font-bold text-voltry-blue mb-1">{displayValue}</div>
+                  <div className="text-sm text-gray-400">{displayLabel}</div>
                 </motion.div>
-              ))}
+              )}
+              )}
             </motion.div>
 
             <motion.div
@@ -673,7 +678,7 @@ export default function VoltryPredictPage() {
               {
                 step: 3,
                 title: 'Global Aggregation',
-                description: 'Central server combines learnings from 500+ facilities into master model.',
+                description: 'Central server combines learnings from 50M training hours into master model.',
                 icon: Brain
               },
               {
@@ -775,7 +780,7 @@ export default function VoltryPredictPage() {
               Validation: The Numbers Don't Lie
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              95% accuracy validated across 10,000+ predictions in production environments.
+              91% accuracy validated across 10,000+ predictions in production environments.
             </p>
           </motion.div>
 
@@ -786,7 +791,7 @@ export default function VoltryPredictPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <AccuracyGauge accuracy={95} />
+              <AccuracyGauge accuracy={91} />
             </motion.div>
 
             <motion.div
@@ -948,7 +953,7 @@ export default function VoltryPredictPage() {
                 {[
                   'Encrypted model gradients (mathematical patterns only)',
                   'Anonymized feature importance rankings',
-                  'Statistical aggregates across 500+ facilities',
+                  'Statistical aggregates across 50M training hours',
                   'Differential privacy noise (ε=0.1, δ=10⁻⁵)',
                   'Model performance metrics (accuracy, latency)',
                   'Threat intelligence (attack patterns, anomalies)'
@@ -1101,7 +1106,7 @@ export default function VoltryPredictPage() {
               Ready to Stop Reacting and Start Predicting?
             </h2>
             <p className="text-xl text-gray-400 mb-12">
-              Join 500+ facilities using VoltryPredict to prevent failures, reduce downtime, and save millions.
+              Join those leveraging 50M training hours with VoltryPredict to prevent failures, reduce downtime, and save millions.
             </p>
 
             <motion.button

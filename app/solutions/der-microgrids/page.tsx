@@ -68,7 +68,7 @@ const DERMicrogridsPage = () => {
                 <p className="text-sm text-gray-400">IEEE Compliant</p>
               </div>
               <div className="text-center">
-                <p className="text-3xl font-bold text-voltry-lime mb-2">95%</p>
+                <p className="text-3xl font-bold text-voltry-lime mb-2">91%</p>
                 <p className="text-sm text-gray-400">Uptime Achieved</p>
               </div>
             </motion.div>

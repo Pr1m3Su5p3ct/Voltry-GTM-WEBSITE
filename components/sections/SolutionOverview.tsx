@@ -29,9 +29,9 @@ const phases = [
     icon: Brain,
     name: 'VoltryPredict',
     subtitle: 'Intelligence Layer',
-    tagline: '95% ACCURACY',
+    tagline: '91% ACCURACY',
     price: '$50K/year',
-    description: 'Predict failures 48 hours before they happen with federated AI learning from 250+ facilities.',
+    description: 'Predict failures 48 hours before they happen with federated AI learning from 50M training hours.',
     features: [
       '48-hour early warnings',
       'Cross-facility learning',

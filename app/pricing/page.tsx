@@ -131,7 +131,7 @@ const PricingPage = () => {
     {
       question: 'Do I need VoltryCore sensors to use VoltryPredict?',
       answer:
-        'No, VoltryPredict works with your existing infrastructure and vendor systems without requiring VoltryCore sensors. Our platform integrates with electrical systems (Schweitzer, GE, ABB), mechanical systems (Trane, Carrier, Johnson Controls), and other monitoring tools you already have. However, adding VoltryCore sensors unlocks multi-domain sensing capabilities (electrical + mechanical + acoustic) that significantly improve prediction accuracy from 95% to 98%+.',
+        'No, VoltryPredict works with your existing infrastructure and vendor systems without requiring VoltryCore sensors. Our platform integrates with electrical systems (Schweitzer, GE, ABB), mechanical systems (Trane, Carrier, Johnson Controls), and other monitoring tools you already have. However, adding VoltryCore sensors unlocks multi-domain sensing capabilities (electrical + mechanical + acoustic) that significantly improve prediction accuracy from 91% to 98%+.',
     },
     {
       question: 'What if I have 1000+ facilities?',
@@ -454,7 +454,7 @@ const PricingPage = () => {
                 Ready to Get Started?
               </h2>
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                Join 250+ facilities using Voltry to predict failures, reduce downtime, and optimize operations.
+                Join those with 50M training hours using Voltry to predict failures, reduce downtime, and optimize operations.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
