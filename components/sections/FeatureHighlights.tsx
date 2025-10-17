@@ -78,9 +78,9 @@ const FeatureBlock = ({ feature, index }: { feature: Feature; index: number }) =
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   const illustrations = [
-    '/Illustrations/voltry-illustration-02-voltage-waveform-visualization.png',
-    '/Illustrations/voltry-illustration-13-grid-node-network.png',
-    '/Illustrations/voltry-illustration-25-power-quality-flow-diagram.png',
+    '/Illustrations/voltry-illustration-05-power-quality-dashboard.png',
+    '/Illustrations/voltry-illustration-33-network-intelligence.png',
+    '/Illustrations/voltry-illustration-34-realtime-monitoring.png',
   ]
 
   const imageContent = (

@@ -179,7 +179,7 @@ export default function VoltryOSPage() {
           >
             From Chaos to Clarity
           </motion.h2>
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] gap-8 lg:gap-12 items-center">
             {/* Before */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -207,9 +207,14 @@ export default function VoltryOSPage() {
               </div>
             </motion.div>
 
-            {/* Arrow */}
-            <div className="hidden md:flex justify-center">
-              <ArrowRight className="text-voltry-blue" size={64} />
+            {/* Arrow - Always visible */}
+            <div className="flex justify-center">
+              <motion.div
+                animate={{ x: [0, 10, 0] }}
+                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <ArrowRight className="text-voltry-blue" size={64} />
+              </motion.div>
             </div>
 
             {/* After */}
