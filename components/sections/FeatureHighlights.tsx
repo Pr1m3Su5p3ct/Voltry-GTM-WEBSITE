@@ -90,29 +90,27 @@ const FeatureBlock = ({ feature, index }: { feature: Feature; index: number }) =
       transition={{ duration: 0.8, delay: 0.2 }}
       className="w-full h-full"
     >
-      {/* Glassmorphism Card with Illustration */}
+      {/* Feature Image Card */}
       <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden group">
-        {/* Background Illustration */}
+        {/* Full Illustration */}
         <img
           src={illustrations[index]}
           alt=""
-          className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700"
+          className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
         />
 
-        {/* Glassmorphism Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-voltry-navy/60 via-voltry-blue/40 to-voltry-purple/60 backdrop-blur-sm" />
+        {/* Subtle vignette only for feature 3 (blackout scenario) */}
+        {index === 2 && (
+          <div className="absolute inset-0 bg-gradient-to-t from-voltry-navy/40 via-transparent to-transparent" />
+        )}
 
-        {/* Border and Glow */}
-        <div className="absolute inset-0 border border-voltry-blue/30 rounded-2xl" />
-        <div className="absolute inset-0 shadow-inner shadow-voltry-blue/20" />
+        {/* Minimal border */}
+        <div className="absolute inset-0 border-2 border-voltry-blue/20 rounded-2xl group-hover:border-voltry-blue/40 transition-colors duration-300" />
 
         {/* Numbered Badge */}
-        <div className="absolute top-6 right-6 w-16 h-16 bg-gradient-to-br from-voltry-blue to-voltry-purple rounded-full flex items-center justify-center shadow-lg shadow-voltry-blue/50 border-4 border-white/20">
+        <div className="absolute top-6 right-6 w-16 h-16 bg-gradient-to-br from-voltry-blue to-voltry-purple rounded-full flex items-center justify-center shadow-2xl shadow-voltry-blue/50 border-4 border-white/30">
           <span className="text-white font-bold text-2xl">{index + 1}</span>
         </div>
-
-        {/* Animated Grid Pattern Overlay */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:2rem_2rem] opacity-30" />
       </div>
     </motion.div>
   )
