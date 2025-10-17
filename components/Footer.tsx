@@ -21,15 +21,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo and Description */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center space-x-3 mb-4">
+            <Link href="/" className="flex items-center mb-4">
               <Image
-                src="/Logo/voltry-icon-64.png"
+                src="https://res.cloudinary.com/di54rmpjf/image/upload/v1758908977/VOLTRY_Brand_Logo_Design_thsz3q.png"
                 alt="Voltry"
-                width={40}
+                width={120}
                 height={40}
-                className="w-10 h-10"
+                className="h-10 w-auto"
               />
-              <span className="text-white font-bold text-xl">Voltry</span>
             </Link>
             <p className="text-gray-400 text-sm mb-4">
               The nervous system of the modern grid

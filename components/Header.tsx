@@ -39,15 +39,15 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-3">
+            <Link href="/" className="flex items-center">
               <Image
-                src="/Logo/voltry-icon-64.png"
+                src="https://res.cloudinary.com/di54rmpjf/image/upload/v1758908977/VOLTRY_Brand_Logo_Design_thsz3q.png"
                 alt="Voltry"
-                width={40}
+                width={120}
                 height={40}
-                className="w-10 h-10"
+                className="h-10 w-auto"
+                priority
               />
-              <span className="text-white font-bold text-xl">Voltry</span>
             </Link>
           </div>
 
