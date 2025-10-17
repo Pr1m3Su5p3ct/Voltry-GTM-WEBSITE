@@ -36,14 +36,14 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-voltry-navy/95 backdrop-blur-md border-b border-voltry-blue/20">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <img
                 src="https://res.cloudinary.com/di54rmpjf/image/upload/v1758908977/VOLTRY_Brand_Logo_Design_thsz3q.png"
                 alt="Voltry"
-                className="h-10 w-auto"
+                className="h-12 w-auto"
               />
             </Link>
           </div>
