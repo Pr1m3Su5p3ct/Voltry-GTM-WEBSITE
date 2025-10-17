@@ -128,43 +128,7 @@ const SocialProof = () => {
           ))}
         </div>
 
-        {/* Tagline */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-          className="text-center mb-12"
-        >
-          <p className="text-xl text-gray-600 font-medium">
-            Trusted by leaders in critical infrastructure
-          </p>
-        </motion.div>
-
-        {/* Partner Logo Carousel */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-          transition={{ duration: 0.6, delay: 0.7 }}
-          className="relative overflow-hidden"
-        >
-          <div className="flex animate-[scroll_30s_linear_infinite]">
-            {/* Duplicate the logos for seamless loop */}
-            {[...partnerLogos, ...partnerLogos].map((logo, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 w-40 h-24 mx-8 flex items-center justify-center"
-              >
-                <div className="w-full h-full rounded-lg bg-gray-200 flex items-center justify-center text-gray-400 font-semibold grayscale hover:grayscale-0 transition-all duration-300 hover:scale-110 cursor-pointer">
-                  {logo}
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Gradient Overlays */}
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent pointer-events-none" />
-        </motion.div>
+        {/* Partner section removed - will be added later */}
       </div>
 
       {/* Add custom scrolling animation to tailwind config if needed */}
