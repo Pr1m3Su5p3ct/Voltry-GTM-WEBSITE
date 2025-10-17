@@ -40,7 +40,7 @@ const UtilitiesPage = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <Link
-                href="/start-free"
+                href="https://form.typeform.com/to/ezedDSEA" target="_blank" rel="noopener noreferrer"
                 className="px-8 py-4 bg-voltry-blue hover:bg-voltry-blue/90 text-white rounded-lg text-lg font-semibold transition-all hover:shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 text-center"
               >
                 Get $50,000 Free Install
@@ -532,7 +532,7 @@ const UtilitiesPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/start-free"
+                href="https://form.typeform.com/to/ezedDSEA" target="_blank" rel="noopener noreferrer"
                 className="px-8 py-4 bg-voltry-blue hover:bg-voltry-blue/90 text-white rounded-lg text-lg font-semibold transition-all hover:shadow-lg hover:shadow-voltry-blue/50 hover:scale-105"
               >
                 Get $50,000 Free Install

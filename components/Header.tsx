@@ -171,7 +171,9 @@ const Header = () => {
               Login
             </Link>
             <Link
-              href="/start-free"
+              href="https://form.typeform.com/to/ezedDSEA"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-voltry-blue hover:bg-voltry-blue/90 text-white px-6 py-2 rounded-lg text-sm font-medium transition-all hover:shadow-lg hover:shadow-voltry-blue/50"
             >
               Start Free
@@ -263,7 +265,9 @@ const Header = () => {
                     Login
                   </Link>
                   <Link
-                    href="/start-free"
+                    href="https://form.typeform.com/to/ezedDSEA"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="block px-3 py-2 text-base font-medium bg-voltry-blue text-white hover:bg-voltry-blue/90 rounded-md text-center"
                   >
                     Start Free

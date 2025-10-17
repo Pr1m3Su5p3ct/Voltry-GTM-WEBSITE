@@ -459,7 +459,7 @@ const PricingPage = () => {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
-                  href="/start-free"
+                  href="https://form.typeform.com/to/ezedDSEA" target="_blank" rel="noopener noreferrer"
                   className="px-10 py-5 bg-white hover:bg-gray-100 text-voltry-navy rounded-xl text-lg font-bold transition-all hover:scale-105 shadow-xl"
                 >
                   Start Free Today

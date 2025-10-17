@@ -87,13 +87,17 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.8 }}
             >
               <Link
-                href="/start-free"
+                href="https://form.typeform.com/to/ezedDSEA"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-4 bg-voltry-blue hover:bg-voltry-blue/90 text-white rounded-lg text-lg font-semibold transition-all hover:shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 text-center"
               >
                 Get $50,000 Free Install →
               </Link>
               <Link
-                href="/demo"
+                href="https://form.typeform.com/to/ezedDSEA"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-4 bg-transparent border-2 border-voltry-blue text-voltry-blue hover:bg-voltry-blue hover:text-white rounded-lg text-lg font-semibold transition-all text-center"
               >
                 Watch 3-Min Demo

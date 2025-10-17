@@ -113,7 +113,9 @@ const FreeTierCTA = () => {
             className="text-center"
           >
             <Link
-              href="/start-free"
+              href="https://form.typeform.com/to/ezedDSEA"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-12 py-6 bg-gradient-to-r from-voltry-lime to-voltry-blue hover:from-voltry-lime/90 hover:to-voltry-blue/90 text-voltry-navy text-xl md:text-2xl font-bold rounded-xl transition-all hover:shadow-2xl hover:shadow-voltry-lime/50 hover:scale-105"
             >
               Claim Your Free Install →
