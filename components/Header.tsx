@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const Header = () => {
@@ -38,10 +39,14 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-voltry-blue to-voltry-purple rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">V</span>
-              </div>
+            <Link href="/" className="flex items-center space-x-3">
+              <Image
+                src="/Logo/voltry-icon-64.png"
+                alt="Voltry"
+                width={40}
+                height={40}
+                className="w-10 h-10"
+              />
               <span className="text-white font-bold text-xl">Voltry</span>
             </Link>
           </div>

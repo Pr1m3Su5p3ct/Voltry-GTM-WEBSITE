@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 
 const Footer = () => {
@@ -20,10 +21,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo and Description */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-voltry-blue to-voltry-purple rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">V</span>
-              </div>
+            <Link href="/" className="flex items-center space-x-3 mb-4">
+              <Image
+                src="/Logo/voltry-icon-64.png"
+                alt="Voltry"
+                width={40}
+                height={40}
+                className="w-10 h-10"
+              />
               <span className="text-white font-bold text-xl">Voltry</span>
             </Link>
             <p className="text-gray-400 text-sm mb-4">
