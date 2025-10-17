@@ -22,11 +22,9 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center mb-4">
-              <Image
+              <img
                 src="https://res.cloudinary.com/di54rmpjf/image/upload/v1758908977/VOLTRY_Brand_Logo_Design_thsz3q.png"
                 alt="Voltry"
-                width={120}
-                height={40}
                 className="h-10 w-auto"
               />
             </Link>

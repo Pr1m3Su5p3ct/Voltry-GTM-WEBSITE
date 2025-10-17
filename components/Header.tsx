@@ -40,13 +40,10 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Image
+              <img
                 src="https://res.cloudinary.com/di54rmpjf/image/upload/v1758908977/VOLTRY_Brand_Logo_Design_thsz3q.png"
                 alt="Voltry"
-                width={120}
-                height={40}
                 className="h-10 w-auto"
-                priority
               />
             </Link>
           </div>
