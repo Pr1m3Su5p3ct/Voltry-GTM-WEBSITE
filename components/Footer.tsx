@@ -56,7 +56,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://twitter.com/voltrytech"
+                href="https://twitter.com/voltry"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-voltry-blue transition-colors"
@@ -67,7 +67,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://youtube.com/@voltrytech"
+                href="https://youtube.com/@voltry"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-voltry-blue transition-colors"
