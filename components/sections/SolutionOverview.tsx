@@ -83,6 +83,15 @@ const phases = [
 const SolutionOverview = () => {
   return (
     <section className="relative py-20 lg:py-32 bg-voltry-navy overflow-hidden">
+      {/* Background Illustration - Energy Distribution */}
+      <div className="absolute inset-0 opacity-5">
+        <img
+          src="/Illustrations/voltry-illustration-04-energy-distribution-system.png"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
+
       {/* Animated Background Grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#0095ff15_1px,transparent_1px),linear-gradient(to_bottom,#0095ff15_1px,transparent_1px)] bg-[size:4rem_4rem]" />
 

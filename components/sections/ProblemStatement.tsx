@@ -27,6 +27,16 @@ const painPoints = [
 const ProblemStatement = () => {
   return (
     <section className="relative py-20 lg:py-32 bg-gray-50 overflow-hidden">
+      {/* Background Illustration with Glassmorphism */}
+      <div className="absolute inset-0 opacity-10">
+        <img
+          src="/Illustrations/voltry-illustration-01-power-grid-network.png"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="absolute inset-0 backdrop-blur-sm bg-gradient-to-b from-gray-50/90 via-gray-50/80 to-gray-50/90" />
+
       {/* Subtle Background Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#0095ff08_1px,transparent_1px),linear-gradient(to_bottom,#0095ff08_1px,transparent_1px)] bg-[size:3rem_3rem]" />
 

@@ -77,6 +77,12 @@ const FeatureBlock = ({ feature, index }: { feature: Feature; index: number }) =
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
+  const illustrations = [
+    '/Illustrations/voltry-illustration-02-voltage-waveform-visualization.png',
+    '/Illustrations/voltry-illustration-13-grid-node-network.png',
+    '/Illustrations/voltry-illustration-25-power-quality-flow-diagram.png',
+  ]
+
   const imageContent = (
     <motion.div
       initial={{ opacity: 0, x: feature.imagePosition === 'left' ? -50 : 50 }}
@@ -84,23 +90,29 @@ const FeatureBlock = ({ feature, index }: { feature: Feature; index: number }) =
       transition={{ duration: 0.8, delay: 0.2 }}
       className="w-full h-full"
     >
-      {/* Placeholder for images - will be replaced with actual images later */}
-      <div className="relative h-[400px] lg:h-[500px] rounded-2xl bg-gradient-to-br from-voltry-blue/20 to-voltry-purple/20 border border-voltry-blue/30 overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center space-y-4">
-            <div className="w-24 h-24 mx-auto bg-gradient-to-br from-voltry-blue to-voltry-purple rounded-full flex items-center justify-center shadow-lg">
-              <span className="text-white font-bold text-4xl">
-                {index + 1}
-              </span>
-            </div>
-            <p className="text-voltry-blue font-semibold text-lg">
-              [Feature Image {index + 1}]
-            </p>
-          </div>
+      {/* Glassmorphism Card with Illustration */}
+      <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden group">
+        {/* Background Illustration */}
+        <img
+          src={illustrations[index]}
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700"
+        />
+
+        {/* Glassmorphism Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-voltry-navy/60 via-voltry-blue/40 to-voltry-purple/60 backdrop-blur-sm" />
+
+        {/* Border and Glow */}
+        <div className="absolute inset-0 border border-voltry-blue/30 rounded-2xl" />
+        <div className="absolute inset-0 shadow-inner shadow-voltry-blue/20" />
+
+        {/* Numbered Badge */}
+        <div className="absolute top-6 right-6 w-16 h-16 bg-gradient-to-br from-voltry-blue to-voltry-purple rounded-full flex items-center justify-center shadow-lg shadow-voltry-blue/50 border-4 border-white/20">
+          <span className="text-white font-bold text-2xl">{index + 1}</span>
         </div>
 
-        {/* Animated background pattern */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#0095ff10_1px,transparent_1px),linear-gradient(to_bottom,#0095ff10_1px,transparent_1px)] bg-[size:3rem_3rem]" />
+        {/* Animated Grid Pattern Overlay */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:2rem_2rem] opacity-30" />
       </div>
     </motion.div>
   )

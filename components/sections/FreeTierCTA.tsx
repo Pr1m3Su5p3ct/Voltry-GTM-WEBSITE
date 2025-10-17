@@ -16,6 +16,16 @@ const FreeTierCTA = () => {
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-voltry-navy via-voltry-blue to-voltry-purple py-20">
+      {/* Background Illustration - Smart Grid Control Center */}
+      <div className="absolute inset-0 opacity-15">
+        <img
+          src="/Illustrations/voltry-illustration-03-smart-grid-control-center.png"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-br from-voltry-navy/80 via-voltry-blue/70 to-voltry-purple/80 backdrop-blur-sm" />
+
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,149,255,0.05)_50%,transparent_75%,transparent_100%)] bg-[length:250%_250%] animate-[gradient_15s_ease_infinite]" />
 
