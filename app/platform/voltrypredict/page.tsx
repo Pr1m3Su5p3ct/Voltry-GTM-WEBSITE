@@ -134,34 +134,63 @@ function PredictionTimeline({ caseStudy }: { caseStudy: any }) {
 // Federated Learning Flow Diagram
 function FederatedLearningDiagram() {
   const nodes = [
-    { id: 1, label: 'Facility A', x: 10, y: 50, delay: 0 },
-    { id: 2, label: 'Facility B', x: 10, y: 150, delay: 0.2 },
-    { id: 3, label: 'Facility C', x: 10, y: 250, delay: 0.4 },
-    { id: 4, label: 'Central Model', x: 300, y: 150, delay: 0.6 },
+    { id: 1, label: 'Facility A', x: 50, y: 50, delay: 0 },
+    { id: 2, label: 'Facility B', x: 50, y: 160, delay: 0.2 },
+    { id: 3, label: 'Facility C', x: 50, y: 270, delay: 0.4 },
+    { id: 4, label: 'Central Model', x: 380, y: 160, delay: 0.6 },
   ]
 
   return (
-    <div className="relative h-96 bg-slate-900 rounded-xl p-8 overflow-hidden border border-voltry-blue/20">
+    <div className="relative h-[450px] bg-gradient-to-br from-slate-900 via-slate-950 to-voltry-navy rounded-2xl p-8 overflow-hidden border-2 border-voltry-blue/30">
+      {/* Background Illustration */}
+      <div className="absolute inset-0 opacity-10">
+        <img
+          src="/Illustrations/voltry-illustration-13-grid-node-network.png"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
+
       <svg className="absolute inset-0 w-full h-full">
-        {/* Animated connections */}
-        {[1, 2, 3].map((id, index) => (
+        {/* Animated connections TO central model */}
+        {[0, 1, 2].map((index) => (
           <motion.line
-            key={id}
-            x1={nodes[id - 1].x + 80}
-            y1={nodes[id - 1].y + 30}
+            key={`to-${index}`}
+            x1={nodes[index].x + 140}
+            y1={nodes[index].y + 35}
             x2={nodes[3].x + 20}
-            y2={nodes[3].y + 30}
-            stroke="url(#lineGradient)"
-            strokeWidth="2"
+            y2={nodes[3].y + 50}
+            stroke="url(#lineGradientTo)"
+            strokeWidth="3"
             initial={{ pathLength: 0, opacity: 0 }}
-            animate={{ pathLength: 1, opacity: 0.6 }}
-            transition={{ duration: 1.5, delay: index * 0.3, repeat: Infinity, repeatDelay: 2 }}
+            animate={{ pathLength: [0, 1], opacity: [0, 0.8, 0] }}
+            transition={{ duration: 2, delay: index * 0.4, repeat: Infinity, repeatDelay: 3 }}
+          />
+        ))}
+        {/* Return connections FROM central model */}
+        {[0, 1, 2].map((index) => (
+          <motion.line
+            key={`from-${index}`}
+            x1={nodes[3].x + 20}
+            y1={nodes[3].y + 50}
+            x2={nodes[index].x + 140}
+            y2={nodes[index].y + 35}
+            stroke="url(#lineGradientFrom)"
+            strokeWidth="2"
+            strokeDasharray="5,5"
+            initial={{ pathLength: 0, opacity: 0 }}
+            animate={{ pathLength: [0, 1], opacity: [0, 0.6, 0] }}
+            transition={{ duration: 2, delay: 2 + index * 0.3, repeat: Infinity, repeatDelay: 3 }}
           />
         ))}
         <defs>
-          <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#0095FF" stopOpacity="0" />
-            <stop offset="100%" stopColor="#0095FF" stopOpacity="1" />
+          <linearGradient id="lineGradientTo" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="#0095FF" stopOpacity="0.2" />
+            <stop offset="100%" stopColor="#8B5CF6" stopOpacity="1" />
+          </linearGradient>
+          <linearGradient id="lineGradientFrom" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="#84CC16" stopOpacity="1" />
+            <stop offset="100%" stopColor="#84CC16" stopOpacity="0.2" />
           </linearGradient>
         </defs>
       </svg>
@@ -170,50 +199,145 @@ function FederatedLearningDiagram() {
       {nodes.slice(0, 3).map((node, index) => (
         <motion.div
           key={node.id}
-          className="absolute bg-slate-800 rounded-lg p-4 border border-voltry-blue/30 flex items-center gap-3"
-          style={{ left: `${node.x}px`, top: `${node.y}px` }}
+          className="absolute bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-4 border-2 border-voltry-blue/40 flex items-center gap-3 shadow-lg"
+          style={{ left: `${node.x}px`, top: `${node.y}px`, width: '200px' }}
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: node.delay }}
+          whileHover={{ scale: 1.05, borderColor: 'rgba(0, 149, 255, 0.8)' }}
         >
-          <Database className="text-voltry-blue" size={24} />
-          <div>
-            <div className="text-sm font-semibold">{node.label}</div>
-            <div className="text-xs text-gray-400">Local Training</div>
-          </div>
           <motion.div
-            className="ml-2"
-            animate={{ opacity: [0, 1, 0] }}
-            transition={{ duration: 2, delay: index * 0.3, repeat: Infinity, repeatDelay: 2 }}
+            animate={{ rotate: 360 }}
+            transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
           >
-            <ArrowRight className="text-voltry-blue" size={16} />
+            <Database className="text-voltry-blue" size={28} />
+          </motion.div>
+          <div className="flex-1">
+            <div className="text-sm font-bold">{node.label}</div>
+            <div className="text-xs text-gray-400">Local Training</div>
+            <motion.div
+              className="mt-1 text-xs font-mono text-voltry-lime"
+              animate={{ opacity: [0.5, 1, 0.5] }}
+              transition={{ duration: 2, delay: index * 0.3, repeat: Infinity }}
+            >
+              Training...
+            </motion.div>
+          </div>
+          {/* Upload indicator */}
+          <motion.div
+            animate={{ opacity: [0, 1, 0], y: [-5, 5, -5] }}
+            transition={{ duration: 2, delay: index * 0.4, repeat: Infinity, repeatDelay: 3 }}
+          >
+            <ArrowRight className="text-voltry-purple" size={20} />
           </motion.div>
         </motion.div>
       ))}
 
-      {/* Central model */}
+      {/* Central model with enhanced visuals */}
       <motion.div
-        className="absolute bg-gradient-to-br from-voltry-blue/20 to-voltry-purple/20 rounded-lg p-6 border-2 border-voltry-blue flex flex-col items-center justify-center"
-        style={{ left: `${nodes[3].x}px`, top: `${nodes[3].y}px`, width: '180px' }}
+        className="absolute bg-gradient-to-br from-voltry-blue/30 to-voltry-purple/30 rounded-xl p-6 border-4 border-voltry-purple flex flex-col items-center justify-center shadow-2xl backdrop-blur-md"
+        style={{ left: `${nodes[3].x}px`, top: `${nodes[3].y}px`, width: '200px' }}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, delay: nodes[3].delay }}
       >
-        <Brain className="text-voltry-purple mb-2" size={32} />
-        <div className="text-sm font-bold text-center">{nodes[3].label}</div>
-        <div className="text-xs text-gray-400 text-center mt-1">Global Intelligence</div>
+        {/* Pulsing glow effect */}
         <motion.div
-          className="mt-2"
-          animate={{ scale: [1, 1.2, 1] }}
+          className="absolute inset-0 bg-gradient-to-br from-voltry-blue to-voltry-purple rounded-xl opacity-30"
+          animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.6, 0.3] }}
+          transition={{ duration: 3, repeat: Infinity }}
+        />
+
+        <motion.div
+          className="relative z-10"
+          animate={{ rotate: [0, 360] }}
+          transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}
+        >
+          <Brain className="text-voltry-purple" size={40} />
+        </motion.div>
+
+        <div className="relative z-10 mt-3 text-center">
+          <div className="text-base font-bold">{nodes[3].label}</div>
+          <div className="text-xs text-gray-300 mt-1">Global Intelligence</div>
+        </div>
+
+        <motion.div
+          className="relative z-10 mt-3 flex gap-1"
+          animate={{ scale: [1, 1.3, 1] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          <Sparkles className="text-voltry-lime" size={20} />
+          <Sparkles className="text-voltry-lime" size={22} />
+          <Sparkles className="text-voltry-blue" size={16} />
+        </motion.div>
+
+        {/* Accuracy counter */}
+        <motion.div
+          className="relative z-10 mt-2 bg-voltry-lime/20 border border-voltry-lime/40 rounded-full px-3 py-1"
+          animate={{ opacity: [0.7, 1, 0.7] }}
+          transition={{ duration: 2, repeat: Infinity }}
+        >
+          <div className="text-xs font-mono font-bold text-voltry-lime">95% Accurate</div>
         </motion.div>
       </motion.div>
 
-      {/* Labels */}
-      <div className="absolute bottom-4 left-4 text-xs text-gray-500">
-        Data never leaves facilities → Only model updates shared
+      {/* Data packets animation */}
+      {[0, 1, 2].map((index) => (
+        <motion.div
+          key={`packet-${index}`}
+          className="absolute w-2 h-2 bg-voltry-lime rounded-full shadow-lg shadow-voltry-lime/50"
+          style={{
+            left: `${nodes[index].x + 140}px`,
+            top: `${nodes[index].y + 35}px`,
+          }}
+          animate={{
+            x: [0, nodes[3].x - nodes[index].x - 120],
+            y: [0, nodes[3].y - nodes[index].y + 15],
+            opacity: [0, 1, 0],
+          }}
+          transition={{
+            duration: 2,
+            delay: 1 + index * 0.4,
+            repeat: Infinity,
+            repeatDelay: 3,
+            ease: 'easeInOut',
+          }}
+        />
+      ))}
+
+      {/* Return knowledge packets */}
+      {[0, 1, 2].map((index) => (
+        <motion.div
+          key={`return-${index}`}
+          className="absolute w-2 h-2 bg-voltry-purple rounded-full shadow-lg shadow-voltry-purple/50"
+          style={{
+            left: `${nodes[3].x + 20}px`,
+            top: `${nodes[3].y + 50}px`,
+          }}
+          animate={{
+            x: [0, nodes[index].x - nodes[3].x + 120],
+            y: [0, nodes[index].y - nodes[3].y - 15],
+            opacity: [0, 1, 0],
+          }}
+          transition={{
+            duration: 2,
+            delay: 3.5 + index * 0.3,
+            repeat: Infinity,
+            repeatDelay: 3,
+            ease: 'easeInOut',
+          }}
+        />
+      ))}
+
+      {/* Labels with animated arrows */}
+      <div className="absolute bottom-6 left-4 right-4 flex justify-between items-center text-xs">
+        <div className="flex items-center gap-2 bg-voltry-blue/10 border border-voltry-blue/30 rounded-lg px-4 py-2">
+          <div className="w-2 h-2 bg-voltry-lime rounded-full" />
+          <span className="text-gray-400">Data never leaves facilities</span>
+        </div>
+        <div className="flex items-center gap-2 bg-voltry-purple/10 border border-voltry-purple/30 rounded-lg px-4 py-2">
+          <div className="w-2 h-2 bg-voltry-purple rounded-full" />
+          <span className="text-gray-400">Model updates distributed</span>
+        </div>
       </div>
     </div>
   )
