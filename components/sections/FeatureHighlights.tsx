@@ -79,7 +79,7 @@ const FeatureBlock = ({ feature, index }: { feature: Feature; index: number }) =
 
   const illustrations = [
     '/Illustrations/voltry-illustration-27-waveform-analysis-diagram.png',
-    '/Illustrations/voltry-illustration-28-energy-distribution-map.png',
+    'https://res.cloudinary.com/di54rmpjf/image/upload/v1759978087/Voltry_Media/Extras/voltry-extra-07-electric-grid-neon.png',
     'https://res.cloudinary.com/di54rmpjf/image/upload/v1759978077/Voltry_Media/Extras/voltry-extra-04-blackout-scenario-2.png',
   ]
 
