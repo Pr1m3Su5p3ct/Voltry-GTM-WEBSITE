@@ -28,7 +28,7 @@ const Header = () => {
       { name: 'Case Studies', href: '/resources/case-studies', comingSoon: true },
       { name: 'Technical Whitepapers', href: '/resources/whitepapers', comingSoon: true },
       { name: 'API Reference', href: '/api', comingSoon: true },
-      { name: 'GitHub (Open Source)', href: 'https://github.com/voltry', external: true },
+      { name: 'GitHub (Open Source)', href: 'https://github.com/voltry', external: true, comingSoon: true },
       { name: 'Blog', href: '/blog', comingSoon: true },
     ],
   }
