@@ -53,9 +53,9 @@ export default function VoltryOSPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
             >
-              <button className="bg-voltry-blue hover:bg-voltry-purple transition-all duration-300 text-white px-10 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 transform">
+              <a href="https://form.typeform.com/to/ezedDSEA" target="_blank" rel="noopener noreferrer" className="bg-voltry-blue hover:bg-voltry-purple transition-all duration-300 text-white px-10 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 transform">
                 Start Free Integration <ArrowRight className="inline ml-2" size={20} />
-              </button>
+              </a>
             </motion.div>
           </motion.div>
         </div>

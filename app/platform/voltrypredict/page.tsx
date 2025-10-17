@@ -616,11 +616,11 @@ export default function VoltryPredictPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
             >
-              <button className="bg-gradient-to-r from-voltry-blue to-voltry-purple hover:from-voltry-purple hover:to-voltry-blue transition-all duration-300 text-white px-10 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 transform inline-flex items-center gap-2">
+              <a href="https://form.typeform.com/to/ezedDSEA" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-voltry-blue to-voltry-purple hover:from-voltry-purple hover:to-voltry-blue transition-all duration-300 text-white px-10 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 transform inline-flex items-center gap-2">
                 <Eye size={20} />
                 See It In Action
                 <ArrowRight size={20} />
-              </button>
+              </a>
             </motion.div>
           </motion.div>
         </div>

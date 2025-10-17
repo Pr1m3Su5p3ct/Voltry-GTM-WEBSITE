@@ -138,12 +138,12 @@ export default function MCPServerPage() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
-              <button className="bg-voltry-blue hover:bg-voltry-purple transition-all duration-300 text-white px-10 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 transform">
+              <a href="https://form.typeform.com/to/ezedDSEA" target="_blank" rel="noopener noreferrer" className="bg-voltry-blue hover:bg-voltry-purple transition-all duration-300 text-white px-10 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 transform">
                 Join Beta Program <ArrowRight className="inline ml-2" size={20} />
-              </button>
-              <button className="bg-slate-800 hover:bg-slate-700 transition-all duration-300 text-white px-10 py-4 rounded-lg text-lg font-semibold border border-slate-700 hover:border-voltry-blue hover:scale-105 transform">
+              </a>
+              <a href="https://form.typeform.com/to/ezedDSEA" target="_blank" rel="noopener noreferrer" className="bg-slate-800 hover:bg-slate-700 transition-all duration-300 text-white px-10 py-4 rounded-lg text-lg font-semibold border border-slate-700 hover:border-voltry-blue hover:scale-105 transform">
                 Read Documentation <BookOpen className="inline ml-2" size={20} />
-              </button>
+              </a>
             </motion.div>
           </motion.div>
         </div>
@@ -556,7 +556,7 @@ console.log(response.content);
                   }`}
                 >
                   {tier.price === 'Free' ? 'Start Free' : tier.price === 'Custom' ? 'Contact Sales' : 'Get Started'}
-                </button>
+                </a>
               </motion.div>
             ))}
           </div>
@@ -608,9 +608,9 @@ console.log(response.content);
                 ))}
               </div>
 
-              <button className="bg-voltry-blue hover:bg-voltry-purple transition-all duration-300 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 transform">
+              <a href="https://form.typeform.com/to/ezedDSEA" target="_blank" rel="noopener noreferrer" className="bg-voltry-blue hover:bg-voltry-purple transition-all duration-300 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-voltry-blue/50 hover:scale-105 transform">
                 Explore Documentation <ArrowRight className="inline ml-2" size={20} />
-              </button>
+              </a>
             </motion.div>
 
             <motion.div
